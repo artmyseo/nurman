@@ -1,16 +1,16 @@
 <template>
   <div id="App">
-    <configpet></configpet>
+    <configpin></configpin>
   </div>
 </template>
 
 <script>
-import configpet from './components/configpet.vue'
+import configpet from './components/configpin.vue'
 
 export default {
   name: 'App',
   components: {
-    configpet
+    configpin
   }
 }
 </script>
